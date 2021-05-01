@@ -1,0 +1,77 @@
+html{
+    background-image: url("/mnt/c/Users/Asus/desktop/repo/chocolate-pizza-/img/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+ 
+body{
+    background-color: #F9EBEA;
+    width: 1200px;
+     margin: auto;
+   
+}
+
+div.logo{
+    display: inline-block;
+    margin-left: 50px;
+    height: 100px
+}
+
+  
+
+  header nav {
+    text-align: center;
+    
+    
+  }
+  
+  header nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 25px;
+    font-weight: 300;
+    position: relative;
+  }
+  
+  header nav a:hover {
+
+    background: #c98686;
+    color:aliceblue
+  }
+  
+ 
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer {
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(19, 18, 18);
+    text-align: center;}
+
+    footer ul{
+        text-align: center;
+    }
+
+    .button{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
